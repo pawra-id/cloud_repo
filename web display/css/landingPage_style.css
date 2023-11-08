@@ -150,7 +150,7 @@ nav .navbar .navbar-btn .lang-menu .selected-lang img {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background-image: url("/image/hero.png");
+    background-image: url("/web display/image/hero.png");
     background-repeat: no-repeat;
     background-size: 30rem;
     background-position: right;
@@ -202,7 +202,7 @@ span {
 .background-app {
     height: 30rem;
     background-color: #68976c;
-    background-image: url("/image/baymax.png");
+    background-image: url("/web display/image/baymax.png");
     background-repeat: no-repeat;
     background-position-x: right;
     background-position-y: 120%;
@@ -317,7 +317,7 @@ span {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background-image: url("/image/mobile3.png");
+    background-image: url("/web display/image/mobile3.png");
     background-repeat: no-repeat;
     background-size: 30rem;
     background-position: right;
