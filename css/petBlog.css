@@ -1,0 +1,122 @@
+.blogs .blogs-content-title h1 {
+    text-align: center;
+    font-size: 4rem;
+    color: #211F54;
+}
+
+.blogs .blogs-content-title p.description {
+    text-align: center;
+    max-width: 75%;
+    font-size: 1.2rem;
+    line-height: 2.3rem;
+    margin-bottom: 3rem;
+}
+/* 
+.blogs .blog-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    margin: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+} */
+
+/* .blogs .blog-card img {
+    max-width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+} */
+
+/* .blogs .blog-card-content {
+    padding: 20px;
+} */
+
+.hero-blogs {
+    padding-top: 10rem;
+    background: linear-gradient(to right, #5AB260, #166F7D);
+    max-height: 40rem;
+
+}
+
+.hero-blogs .hero-content-blogs {
+    display: flex;
+}
+
+.hero-blogs .hero-content-blogs h1 {
+    font-size: 5rem;
+    color: white;
+    padding: 10rem 1rem 10rem 20rem;
+}
+
+.hero-blogs .hero-content-blogs img {
+    height: 25rem;
+}
+
+.blogs .blogs-content-title {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+}
+
+.blogs .blogs-content-title .card-container {
+    margin: 1rem;
+}
+
+.blogs .blogs-content-title .card-container .card-blogs {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+    width: 25rem;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 1rem;
+}
+
+.blogs .blogs-content-title .card-container .card-blogs img {
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+}
+
+.blogs .blogs-content-title .card-container .card-blogs .card-blogs-content {
+    padding: 2rem;
+    margin-bottom: 0;
+}
+
+.blogs .blogs-content-title .card-container .card-blogs:hover {
+    transform: scale(1.1);
+}
+
+.blogs .blogs-content-title .card-container .card-blogs .card-blogs-content h3 {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+    text-align: justify;
+    /* width: 20rem;  */
+    /* white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; */
+}
+
+.blogs .blogs-content-title .card-container .card-blogs .card-blogs-content p {
+    color: #211F54;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-align: justify;
+    margin-bottom: 1rem;
+}
+
+.blogs .blogs-content-title .card-container .card-blogs .card-blogs-content .btn-read-more {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #166F7D;
+    text-decoration: none;
+    border-radius: 2rem;
+    margin-top: 1rem;
+    color: white;
+}

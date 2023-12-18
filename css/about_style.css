@@ -1,0 +1,84 @@
+.hero-about {
+    background-image: none;
+    background-image: url("/image/maskot-pawra-1.png");
+    background-size: 33rem;
+}
+
+p span {
+    font-weight: bold;
+    color: black;
+}
+
+.bg-about {
+    background-image: none;
+    background: none;
+}
+
+.bg-about .bg-content-about {
+    background: linear-gradient(to right, #85C88A, #1E6245);
+}
+
+.bg-about .bg-content-about .bg-about-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.bg-about .bg-content-about .bg-about-flex img {
+    height: 25rem;
+    width: 25rem;
+}
+
+.bg-about .bg-content-about .bg-about-flex p {
+    padding-left: 0 !important;
+    text-align: justify;
+    max-width: 80rem;
+}
+
+.about-us {
+    text-align: center;
+}
+
+.about-section {
+    margin-top: 8rem;
+}
+
+.about-us .team-members .team-member img {
+    height: 15rem;
+    width: 15rem;
+}
+
+h1 {
+    font-size: 46px;
+    margin-bottom: 20px;
+}
+
+.team-members {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.team-member {
+    margin: 1.4rem;
+    text-align: center;
+    flex: 0 1 calc(20% - 20px);
+}
+
+.team-member img {
+    object-fit: cover; 
+}
+
+.about-us .team-members .team-member h2 {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.about-us .team-members .team-member p {
+    font-size: 1rem;
+}
+
+.team-member h2, .team-member p {
+    margin: 5px 0;
+}
+
+

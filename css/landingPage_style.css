@@ -150,9 +150,9 @@ nav .navbar .navbar-btn .lang-menu .selected-lang img {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background-image: url("../image/hero.png");
+    background-image: url("/image/mobile-1.png");
     background-repeat: no-repeat;
-    background-size: 30rem;
+    background-size: 25rem;
     background-position: right;
     background-position-x: 82%; 
     background-position-y: 70%;
@@ -203,10 +203,11 @@ span {
 .background-app {
     height: 30rem;
     background-color: #68976c;
-    background-image: url("../image/baymax.png");
+    background-image: url("/image/maskot-pawra-2.png");
+    background-size: 22rem;
     background-repeat: no-repeat;
-    background-position-x: right;
-    background-position-y: 120%;
+    background-position-x: 103%;
+    background-position-y: 110%;
     color: var(--secondary);
 }
 
@@ -217,10 +218,10 @@ span {
 }
 
 .background-app .bg-app-content p {
-    text-align: left;
+    text-align: justify;
     font-size: 1.4rem;
     line-height: 2.2rem;
-    max-width: 80rem;
+    max-width: 85rem;
 }
 
 .feature .feature-content h1 {
@@ -241,6 +242,10 @@ span {
     background-color: rgba(30, 98, 69, 0.33);
     width: 20rem;
     height: 22rem;
+}
+
+.feature .feature-content .feature-row .feature-card:hover {
+    transform: scale(1.1);
 }
 
 .feature .feature-content .feature-row .feature-card a img {
@@ -318,7 +323,7 @@ span {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background-image: url("../image/mobile3.png");
+    background-image: url("/image/mobile-2.png");
     background-repeat: no-repeat;
     background-size: 30rem;
     background-position: right;
@@ -329,6 +334,7 @@ span {
 
 .promotion .promotion-content p {
     line-height: 2rem;
+    font-size: 1.2rem;
     margin-bottom: 2rem;
 }
 
@@ -399,79 +405,4 @@ footer .credit p {
     font-size: 1rem;
     text-align: left;
     padding: 2rem 12%;
-}
-.about-us {
-    text-align: center;
-    margin-top: 60px;
-
-}
-h1 {
-    font-size: 46px;
-    margin-bottom: 20px;
-}
-
-.team-members {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.team-member {
-    margin: 10px;
-text-align: center;
-flex: 0 1 calc(33.33% - 20px);
-}
-
-.team-member img {
-    width: 250px;
-    height: 250px;
-    border-radius: 50%; 
-    object-fit: cover; 
-}
-
-.team-member h2, .team-member p {
-    margin: 10px 0;
-}
-
-h1 {
-    margin-bottom: 20px;
-}
-.blogs {
-    text-align: center;
-    margin-top: 50px;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
-}
-
-.blog-card {
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    overflow: hidden;
-    margin: 10px;
-    width: 300px;
-    display: inline-block;
-    vertical-align: top;
-    
-}
-
-.blog-card img {
-    width: 100%;
-    height: 200px; /* Tetapkan dimensi tinggi yang diinginkan */
-    object-fit: cover;
-}
-
-.blog-card-content {
-    padding: 15px;
-    box-sizing: border-box;
-}
-
-p {
-    font-size: 14px;
-    line-height: 1.4;
 }
