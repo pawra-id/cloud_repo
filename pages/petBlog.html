@@ -5,8 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pawra</title>
   
-   
-
     <!-- font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,46 +15,23 @@
     
     <!-- style -->
     <link rel="stylesheet" href="../css/landingPage_style.css">
+    <link rel="stylesheet" href="../css/petBlog.css">
     <link rel="stylesheet" href="../css/landingPage_responsive.css">
 
     <!-- favicon -->
     <link rel="shortcut icon" href="../image/logo2.png" type="image/x-icon">
 
-    <style>
-        .blog-card {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-            margin: 20px;
-            border: 1px solid #ddd;
-            border-radius: 8px;
-            overflow: hidden;
-        }
-    
-        .blog-card img {
-            max-width: 100%;
-            height: auto;
-            border-bottom: 1px solid #ddd;
-        }
-    
-        .blog-card-content {
-            padding: 20px;
-        }
-    </style>
-    
-
 </head>
 <body>
     <header>
         <nav>
-            <a href="#">
+            <a href="/index.html">
                 <img src="../image/logo.png" alt="logo pawra">
             </a>
 
             <div class="navbar">
                 <section class="navbar-menu">
-                    <a href="landing_page.html">Our Partner</a>
+                    <a href="#our_partner">Our Partner</a>
                     <a href="about.html">About Us</a>
                     <a href="petBlog.html">PetBlogs</a>
                 </section>
@@ -76,17 +51,56 @@
         </nav>
     </header>
 
-    <section class="hero">
-        <article class="hero-content">
-            <h1>ThePetNews</h1>
+    <section class="hero-blogs">
+        <article class="hero-content-blogs">
+            <h1>The PetNews</h1>
+            <img src="/image/maskot-pawra-3.png" alt="JJ Beagle">
         </article>
     </section>
-
-    <section class="blogs" id="blogs">
-        <h1>Our Curated News</h1>
-        <p>Explore our pet blog for insightful articles and tips on pet care, anxiety management, and overall pet welfare. Stay updated with the latest trends in pet health and happiness</p>
     
-        <div class="blog-card">
+    
+    <section class="blogs" id="blogs">
+        <section class="blogs-content-title">
+            <h1>Our Curated News</h1>
+            <p class="description">Explore our pet blog for insightful articles and tips on pet care, anxiety management, and overall pet welfare. Stay updated with the latest trends in pet health and happiness</p>      
+            
+            <section class="card-container">
+                <article class="card-blogs">
+                    <img src="/image/blog1.jpg" alt="Blog Image 1">
+                    <div class="card-blogs-content">
+                        <h3>Dokter hewan kunci untuk tingkatkan kesejahteraan hewan dan edukasi masyarakat.</h3>
+                        <p>Dokter hewan adalah sumber edukasi terbaik bagi pemilik hewan kesayangan. Pemilik yang teredukasi lebih rajin berkonsultasi untuk menjaga kesehatan hewan, termasuk vaksin dan obat cacing, menciptakan dunia yang lebih baik untuk kita semua.</p>
+                        <a href="https://www.liputan6.com/citizen6/read/4731036/tingkatkan-kesejahteraan-hewan-peliharaan-pentingnya-dokter-hewan-jadi-garda-terdepan-dalam-mengedukasi-masyarakat" class="btn-read-more">Read More</a>     
+                    </div>
+                </article>
+            </section>
+
+            <section class="card-container">
+                <article class="card-blogs">
+                    <img src="/image/blog2.jpg" alt="Blog Image 2">
+                    <div class="card-blogs-content">
+                        <h3>Kepedulian Masyarakat pada Kesejahteraan Hewan Masih Perlu Ditingkatkan</h3>
+                        <p>Kepedulian masyarakat terhadap kesejahteraan hewan, khususnya peliharaan masih perlu ditingkatkan lagi. Hal tersebut disampaikan oleh Salah satu penyalur bantuan pakan kucing dan anjing dari Komunitas Animal Lovers Kota Semarang, Ruth Lilik Kristiani.</p>
+                        <a href="https://joglojateng.com/2023/10/16/kepedulian-pada-kesejahteraan-hewan-masih-perlu-ditingkatkan/" class="btn-read-more">Read More</a>     
+                    </div>
+                </article>
+            </section>
+
+            <section class="card-container">
+                <article class="card-blogs">
+                    <img src="/image/blog3.jpg" alt="Blog Image 3">
+                    <div class="card-blogs-content">
+                        <h3>Donasikan pakaian bekasmu demi kesejahteraan hewan telantar</h3>
+                        <p>Agensi kreatif Creative Tribe dengan menggandeng Buru Studio dan Pable Indonesia berinisiatif kampanyekan "UPCYCLING FOR LOVE untuk membantu Natha Satwa Nusantara mewujudkan tempat perlindungan yang lebih layak bagi hewan telantar.</p>
+                        <a href="https://m.antaranews.com/amp/berita/3746754/donasikan-pakaian-bekasmu-demi-kesejahteraan-hewan-telantar" class="btn-read-more">Read More</a>     
+                    </div>
+                </article>
+            </section>
+        </section>
+
+
+
+        <!-- <div class="blog-card">
             <a href="https://www.liputan6.com/citizen6/read/4731036/tingkatkan-kesejahteraan-hewan-peliharaan-pentingnya-dokter-hewan-jadi-garda-terdepan-dalam-mengedukasi-masyarakat" target="_blank">
                 <img src="../image/blog1.jpg" alt="Blog Image 1">
                 <p class="view-detail">View Detail</p>
@@ -117,30 +131,8 @@
                 <h3>Donasikan pakaian bekasmu demi kesejahteraan hewan telantar</h3>
                 <p>Jakarta (ANTARA)-Agensi kreatif Creative Tribe dengan menggandeng Buru Studio dan Pable Indonesia berinisiatif kampanyekan "UPCYCLING FOR LOVE untuk membantu Natha Satwa Nusantara mewujudkan tempat perlindungan yang lebih layak bagi hewan telantar.</p>
             </div>
-        </div>
+        </div> -->
     </section>
-    
-        
-        <section class="feature">
-            <article class="feature-content">
-                <h1>Pawra: Where Technology Meets Pet Well-being</h1>
-                <section class="feature-row">
-                    <article class="feature-card">
-                        <a href="#"><img src="../image/feature-ml.png" alt="machine learning icon"></a>
-                        <p>Pets' Depression and Anxiety Detection</p>
-                    </article>
-                    <article class="feature-card">
-                        <a href="#"><img src="../image/feature-note.png" alt="pets' note icon"></a>
-                        <p>Pets' Behavior Diary and Notes</p>
-                    </article>
-                    <article class="feature-card">
-                        <a href="#"><img src="../image/feature-vet.png" alt="nearby vet icon"></a>
-                        <p>Nearby Vets</p>
-                    </article>
-                </section>
-            </article>
-        </section>
-
 
         <section class="partner" id="our_partner">
             <article class="sponsor">
@@ -212,6 +204,6 @@
         feather.replace();
     </script>
 
-    <script src="/web display/js/script.js"></script>
+    <script src="/js/script.js"></script>
 </body>
 </html>
